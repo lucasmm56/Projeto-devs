@@ -10,10 +10,10 @@
         <section>
             <h1>Cadastro do PC</h1>
             <form action="#">
-                <input type="text" id="tamanho_monitor" name="tamanho_monitor" placeholder="Qual é o tamanho do monitor?">
+                <input type="text" id="tamanho_monitor" name="tamanho_monitor" placeholder="Qual o tamanho do monitor?">
                 <input type="text" id="quantidade_mem_ram" name="quantidade_mem_ram" placeholder="Quantos Gb de Mem Ram?">
                 <input type="text" id="ssd_gigas" name="ssd_gigas" placeholder="Qual a capacidade do SSD? ">
-                <input type="text" id="teclado " name="teclado" placeholder="Qual a marca do teclado?">
+                <input type="text" id="teclado" name="teclado" placeholder="Qual a marca do teclado?">
                 <button type="submit" onclick="validate()">ENVIAR</button>
             </form>
         </section>
