@@ -42,17 +42,6 @@
     border-bottom: 1.5px solid rgb(17, 202, 144);
 }
 
-.entrada :focus{
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
-
-.entrada :focus{
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
-
 .botao-container{
     margin: 10px 0px 10px 0px;
     padding: 10px;

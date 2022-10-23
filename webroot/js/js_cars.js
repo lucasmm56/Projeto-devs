@@ -2,6 +2,7 @@ document.querySelector('#formulario')
 .onsubmit = (event)=>{
     event.preventDefault()
     alert('Dados enviados com sucesso')
+    location.reload()
 }
 
 let entrada = document.querySelectorAll('.entrada')
