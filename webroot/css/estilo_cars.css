@@ -1,0 +1,105 @@
+.conteudo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgb(178, 245, 152),rgb(17, 202, 144))}
+
+.container{
+    border-radius: 10px;
+    align-self: center;
+    width: 350px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.titulo{
+    align-self: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario :focus{
+ outline: 0;
+}
+
+
+.entrada{
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1.5px solid rgb(17, 202, 144);
+}
+
+.entrada :focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.entrada :focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.botao-container{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    background: rgb(17, 202, 144);
+    border: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.botao-container :hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao{
+    width: 100%;
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.autor{
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome-autor{
+    text-decoration: underline;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+@media screen and (max-width:450px) {
+    .container{
+        border-radius: 0px;
+        width: 80%;
+    }
+}
+
